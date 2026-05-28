@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title>Rakalma</title>
+<title>Raklama</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -49,7 +49,7 @@ body::before{content:'';position:fixed;inset:0;background:
 .ig{margin-bottom:14px;}
 .il{font-size:11px;color:var(--text2);margin-bottom:6px;display:block;letter-spacing:1px;text-transform:uppercase;font-weight:600;}
 .inp{width:100%;background:var(--bg3);border:1.5px solid var(--border);border-radius:14px;padding:14px 16px;color:var(--text);font-size:15px;outline:none;transition:.25s;font-family:'DM Sans',sans-serif;}
-.inp:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(139,92,246,0.15);}
+  .inp:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(139,92,246,0.15);}
 .inp::placeholder{color:#444460;}
 .btn{width:100%;padding:15px;border-radius:14px;border:none;background:linear-gradient(135deg,var(--p),var(--pk));color:#fff;font-size:15px;font-weight:700;cursor:pointer;letter-spacing:.5px;box-shadow:0 6px 24px rgba(139,92,246,0.35);transition:.15s;font-family:'DM Sans',sans-serif;}
 .btn:active{transform:scale(0.97);box-shadow:0 2px 10px rgba(139,92,246,0.3);}
@@ -93,12 +93,11 @@ body::before{content:'';position:fixed;inset:0;background:
 /* STORIES */
 .stories-section{padding:14px 0 4px;}
 .section-label{font-size:11px;color:var(--text2);letter-spacing:2px;font-weight:700;text-transform:uppercase;padding:0 16px 10px;}
-.stories-row{overflow-x:auto;display:flex;gap:12px;padding:0 16px 12px;scrollbar-width:none;}
+  .stories-row{overflow-x:auto;display:flex;gap:12px;padding:0 16px 12px;scrollbar-width:none;}
 .stories-row::-webkit-scrollbar{display:none;}
 .sitem{display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer;min-width:68px;}
 .sring{width:66px;height:66px;border-radius:50%;padding:2.5px;background:linear-gradient(135deg,var(--p),var(--pk));position:relative;flex-shrink:0;}
-.sring.ad-ring{background:linear-gradient(135deg,var(--gold),#f97316);}
-.sring.seen-ring{background:var(--border);}
+.sring.ad-ring{background:linear-gradient(135deg,var(--gold),#f97316);}.sring.seen-ring{background:var(--border);}
 .sav{width:100%;height:100%;border-radius:50%;background:var(--bg3);display:flex;align-items:center;justify-content:center;font-size:28px;border:2.5px solid var(--bg);overflow:hidden;}
 .sav img{width:100%;height:100%;object-fit:cover;border-radius:50%;}
 .sname{font-size:10px;color:var(--text2);max-width:68px;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600;}
@@ -142,7 +141,7 @@ body::before{content:'';position:fixed;inset:0;background:
 .pinner-img{width:100%;height:100%;object-fit:cover;}
 .pinner-emoji{font-size:80px;}
 .ad-over{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(139,92,246,0.2),rgba(236,72,153,0.15));gap:14px;}
-.ad-play{width:80px;height:80px;border-radius:50%;background:rgba(255,255,255,0.15);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;font-size:32px;border:2px solid rgba(255,255,255,0.3);cursor:pointer;}
+  .ad-play{width:80px;height:80px;border-radius:50%;background:rgba(255,255,255,0.15);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;font-size:32px;border:2px solid rgba(255,255,255,0.3);cursor:pointer;}
 .ad-earn-tag{background:rgba(0,0,0,0.7);border:1px solid var(--gold);border-radius:10px;padding:6px 14px;font-size:12px;color:var(--gold);font-weight:700;}
 .story-media{width:100%;aspect-ratio:9/14;max-height:420px;display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:14px;position:relative;}
 .story-media img{width:100%;height:100%;object-fit:cover;}
@@ -186,7 +185,7 @@ body::before{content:'';position:fixed;inset:0;background:
 .profile-cover{width:100%;height:120px;background:linear-gradient(135deg,rgba(139,92,246,0.3),rgba(236,72,153,0.2));border-radius:18px;margin-bottom:-44px;position:relative;overflow:hidden;}
 .profile-cover::after{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
 .profile-ava-wrap{position:relative;width:88px;height:88px;margin-left:16px;margin-bottom:12px;}
-.profile-ava{width:88px;height:88px;border-radius:50%;background:linear-gradient(135deg,var(--p),var(--pk));display:flex;align-items:center;justify-content:center;font-size:40px;border:4px solid var(--bg);box-shadow:0 4px 20px rgba(139,92,246,0.3);overflow:hidden;cursor:pointer;}
+  .profile-ava{width:88px;height:88px;border-radius:50%;background:linear-gradient(135deg,var(--p),var(--pk));display:flex;align-items:center;justify-content:center;font-size:40px;border:4px solid var(--bg);box-shadow:0 4px 20px rgba(139,92,246,0.3);overflow:hidden;cursor:pointer;}
 .profile-ava img{width:100%;height:100%;object-fit:cover;border-radius:50%;}
 .ava-edit{position:absolute;bottom:0;right:0;width:26px;height:26px;background:linear-gradient(135deg,var(--gold),#f97316);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;cursor:pointer;border:2px solid var(--bg);}
 .profile-info{padding:0 16px 14px;}
@@ -236,4 +235,989 @@ body::before{content:'';position:fixed;inset:0;background:
 .story-grid-section{padding:0 16px 14px;}
 .sg-title{font-size:12px;color:var(--text2);letter-spacing:1.5px;font-weight:700;text-transform:uppercase;margin-bottom:10px;}
 .story-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;}
-.sg-item{aspect-ratio:9/14;background:var(--bg3);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:28px
+.sg-item{aspect-ratio:9/14;background:var(--bg3);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:28px;cursor:pointer;position:relative;overflow:hidden;}
+.sg-item img{width:100%;height:100%;object-fit:cover;border-radius:8px;}
+.sg-badge{position:absolute;top:4px;right:4px;background:rgba(0,0,0,0.7);border:1px solid var(--gold);border-radius:5px;font-size:8px;color:var(--gold);font-weight:700;padding:1px 5px;}
+
+/* ADS PAGE */
+.ads-wrap{padding:16px;}
+.ads-h{font-family:'Syne',sans-serif;font-size:24px;font-weight:900;margin-bottom:4px;}
+.ads-s{font-size:13px;color:var(--text2);margin-bottom:20px;}
+.plan{background:var(--bg2);border:1.5px solid var(--border);border-radius:18px;padding:18px;margin-bottom:12px;cursor:pointer;transition:.15s;}
+.plan:active{transform:scale(0.98);}
+.plan.feat{border-color:rgba(245,158,11,0.4);background:linear-gradient(135deg,rgba(245,158,11,0.06),var(--bg2));}
+  .plan-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;}
+.plan-name{font-size:16px;font-weight:700;}
+.plan-price{font-family:'Syne',sans-serif;font-size:26px;font-weight:900;color:var(--gold);}
+.plan-per{font-size:11px;color:var(--text2);}
+.plan-f{display:flex;align-items:center;gap:9px;font-size:13px;color:var(--text2);margin-bottom:8px;}
+.plan-btn{width:100%;padding:13px;border-radius:12px;border:none;font-size:14px;font-weight:700;cursor:pointer;margin-top:12px;font-family:'DM Sans',sans-serif;}
+.plan-btn.g{background:linear-gradient(135deg,var(--gold),#f97316);color:#000;}
+.plan-btn.p{background:linear-gradient(135deg,var(--p),var(--pk));color:#fff;}
+.hot{background:var(--red);color:#fff;font-size:9px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.5px;}
+
+/* EXPLORE */
+.exp-top{padding:12px 16px;position:sticky;top:0;background:var(--bg);z-index:10;border-bottom:1px solid rgba(255,255,255,0.04);}
+.srch{position:relative;}
+.srch-inp{width:100%;background:var(--bg3);border:1.5px solid var(--border);border-radius:14px;padding:12px 16px 12px 44px;color:var(--text);font-size:15px;outline:none;font-family:'DM Sans',sans-serif;transition:.2s;}
+.srch-inp:focus{border-color:var(--p);}
+.srch-inp::placeholder{color:#444460;}
+.srch-ic{position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:18px;}
+.user-results{padding:0 16px;}
+.uc{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--border);}
+.uc-av{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--p),var(--pk));display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0;}
+.uc-name{font-size:14px;font-weight:700;}
+.uc-info{font-size:12px;color:var(--text2);}
+.uc-btn{margin-left:auto;background:var(--p);color:#fff;border:none;border-radius:9px;padding:6px 14px;font-size:12px;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;}
+.exp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;}
+.eg{aspect-ratio:1;background:var(--bg3);display:flex;align-items:center;justify-content:center;font-size:34px;cursor:pointer;}
+.eg:nth-child(5n+1){grid-row:span 2;}
+
+/* BOTTOM NAV */
+.bnav{position:fixed;bottom:0;left:0;right:0;z-index:50;background:rgba(7,7,16,0.95);backdrop-filter:blur(20px);border-top:1px solid rgba(255,255,255,0.05);display:flex;padding:8px 0 16px;}
+.bi{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;padding:4px 0;transition:.15s;}
+.bi:active{transform:scale(0.9);}
+.biic{font-size:24px;transition:.2s;}
+.bilb{font-size:9px;color:var(--text2);font-weight:600;letter-spacing:.5px;text-transform:uppercase;}
+.bi.active .biic{filter:drop-shadow(0 0 8px var(--p));}
+.bi.active .bilb{color:var(--p2);}
+
+/* MODALS */
+.mo{position:fixed;inset:0;background:rgba(0,0,0,0.8);z-index:200;display:none;align-items:flex-end;backdrop-filter:blur(8px);}
+.mo.open{display:flex;}
+.mb{background:var(--bg2);border-radius:26px 26px 0 0;padding:20px 20px 46px;width:100%;max-height:92vh;overflow-y:auto;border-top:1px solid rgba(255,255,255,0.08);}
+.mh{width:36px;height:4px;background:var(--border);border-radius:2px;margin:0 auto 18px;}
+.mt{font-family:'Syne',sans-serif;font-size:18px;font-weight:900;margin-bottom:16px;}
+
+/* AD WATCH */
+.aw-vid{width:100%;aspect-ratio:16/9;background:var(--bg3);border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:65px;margin-bottom:14px;position:relative;overflow:hidden;border:1px solid var(--border);}
+.aw-ov{position:absolute;inset:0;background:linear-gradient(135deg,rgba(139,92,246,0.2),rgba(236,72,153,0.15));display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;}
+.aw-t{font-family:'Syne',sans-serif;font-size:56px;font-weight:900;color:#fff;text-shadow:0 0 30px var(--p);}
+.aw-l{font-size:12px;color:rgba(255,255,255,0.6);letter-spacing:2px;text-transform:uppercase;}
+.aw-earn{background:rgba(0,0,0,0.7);border:1px solid var(--gold);border-radius:10px;padding:8px 20px;font-size:14px;color:var(--gold);font-weight:700;}
+.aw-bar{height:5px;background:var(--bg3);border-radius:5px;overflow:hidden;margin-bottom:12px;}
+.aw-fill{height:100%;background:linear-gradient(90deg,var(--p),var(--pk));border-radius:5px;transition:width .5s;}
+  .aw-info{font-size:12px;color:var(--text2);text-align:center;margin-bottom:12px;}
+
+/* WITHDRAW */
+.wd-bal{text-align:center;background:var(--bg3);border-radius:16px;padding:20px;margin-bottom:16px;}
+.wd-amt{font-family:'Syne',sans-serif;font-size:44px;font-weight:900;background:linear-gradient(135deg,var(--gold),#f97316);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.wd-min{background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:12px;padding:10px 14px;font-size:13px;color:var(--gold);text-align:center;margin-bottom:16px;font-weight:600;}
+
+/* TOAST */
+#toast{position:fixed;top:80px;left:50%;transform:translateX(-50%) translateY(-8px);background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:11px 22px;font-size:13px;font-weight:600;z-index:999;opacity:0;transition:.3s;pointer-events:none;white-space:nowrap;max-width:92vw;text-align:center;}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+#toast.s{border-color:var(--green);color:var(--green);}
+#toast.g{border-color:var(--gold);color:var(--gold);}
+#toast.e{border-color:var(--red);color:var(--red);}
+#toast.i{border-color:var(--cyan);color:var(--cyan);}
+</style>
+</head>
+<body>
+
+<!-- SPLASH -->
+<div id="splash">
+  <div class="sp-ring"><div class="sp-inner">📺</div></div>
+  <div class="sp-name">Raklama</div>
+  <div class="sp-tag">REKLAMA KO'R • PUL ISHLASH</div>
+  <div class="sp-dots">
+    <div class="sp-dot"></div>
+    <div class="sp-dot"></div>
+    <div class="sp-dot"></div>
+  </div>
+</div>
+
+<!-- AUTH -->
+<div id="authPage">
+  <div class="a-top">
+    <div class="a-logo">📺</div>
+    <div class="a-name">Raklama</div>
+    <div class="a-sub">Reklama ko'rib pul ishlang</div>
+  </div>
+  <div class="tabs">
+    <div class="tab active" onclick="switchTab('login')">Kirish</div>
+    <div class="tab" onclick="switchTab('register')">Ro'yxat</div>
+  </div>
+  <div id="errBox" class="err"></div>
+  <div id="loginForm">
+    <div class="ig"><label class="il">Email</label>
+      <input class="inp" id="lEmail" placeholder="email@gmail.com" type="email"></div>
+    <div class="ig"><label class="il">Parol</label>
+      <input class="inp" id="lPass" placeholder="••••••••" type="password"></div>
+    <button class="btn" onclick="doLogin()">Kirish</button>
+  </div>
+  <div id="regForm" style="display:none">
+    <div class="ig"><label class="il">To'liq ism</label>
+      <input class="inp" id="rName" placeholder="Ism Familiya" type="text"></div>
+    <div class="ig"><label class="il">Email</label>
+      <input class="inp" id="rEmail" placeholder="email@gmail.com" type="email"></div>
+    <div class="ig"><label class="il">Parol (min 6 belgi)</label>
+      <input class="inp" id="rPass" placeholder="••••••••" type="password"></div>
+    <button class="btn" onclick="doRegister()">Ro'yxatdan o'tish</button>
+  </div>
+  <div class="auth-earn">
+    <div class="ae-item"><div class="ae-ic">💰</div><div class="ae-val">$0.01</div><div class="ae-lbl">1 reklama</div></div>
+    <div class="ae-item"><div class="ae-ic">🎁</div><div class="ae-val">$0.02</div><div class="ae-lbl">Kunlik bonus</div></div>
+    <div class="ae-item"><div class="ae-ic">❤️</div><div class="ae-val">$0.01</div><div class="ae-lbl">1 layk</div></div>
+    <div class="ae-item"><div class="ae-ic">🏦</div><div class="ae-val">$50</div><div class="ae-lbl">Min. yechish</div></div>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="app">
+  <div class="topnav">
+    <div class="nav-logo">Raklama</div>
+    <div class="nav-r">
+      <div class="nbtn" onclick="showPage('explore')">🔍</div>
+      <div class="nbtn" onclick="openMo('notiMo')">🔔<div class="nbadge" id="notiBadge" style="display:none">0</div></div>
+      <div class="nbtn" onclick="openMo('msgMo')">💬</div>
+    </div>
+  </div>
+  <div class="pages-container">
+    <!-- HOME -->
+  <div class="page active" id="homePage">
+    <div class="bonusbar">
+    <div class="bb-l"><span style="font-size:18px">🎁</span><div class="bb-txt" id="bonusTxt">Kunlik bonus: $0.02 tayyor!</div></div>
+    <button class="bb-btn" id="bonusBtn" onclick="claimBonus()">Olish</button>
+  </div>
+    <div class="balbar">
+    <div class="bal-l"><div class="bal-lbl">Balansingiz</div><div class="bal-amt" id="balTop">$0.00</div></div>
+    <button class="bal-btn" onclick="showPage('profile')">Profil ▶</button>
+  </div>
+    <div class="stories-section">
+      <div class="section-label">Storiyalar</div>
+      <div class="stories-row" id="storiesRow"></div>
+    </div>
+    <div class="tasks-section">
+      <div class="ts-title">🎯 Kunlik vazifalar</div>
+      <div class="task-row">
+        <div class="tl">
+          <div class="tl-top"><span>👁</span>10 ta reklama ko'r</div>
+          <div class="tl-bar"><div class="tl-fill" id="tAdsBar" style="width:0%"></div></div>
+          <div class="tl-prog" id="tAdsProg">0/10</div>
+        </div>
+        <button class="t-btn" id="tAdsBtn" onclick="claimAdsTask()" disabled>+$0.10</button>
+        </div>
+      <div class="task-row">
+        <div class="tl">
+          <div class="tl-top"><span>🔔</span>3 ta obuna bo'l</div>
+          <div class="tl-bar"><div class="tl-fill" id="tSubBar" style="width:0%"></div></div>
+          <div class="tl-prog" id="tSubProg">0/3</div>
+        </div>
+        <button class="t-btn" id="tSubBtn" onclick="claimSubTask()" disabled>+$0.05</button>
+      </div>
+    </div>
+    <div id="feedWrap"></div>
+  </div>
+
+  <!-- EXPLORE -->
+  <div class="page" id="explorePage">
+    <div class="exp-top">
+      <div class="srch">
+        <span class="srch-ic">🔍</span>
+        <input class="srch-inp" id="srchInp" placeholder="Foydalanuvchi qidirish..." oninput="doSearch(this.value)">
+      </div>
+    </div>
+    <div id="userResults" class="user-results"></div>
+    <div class="exp-grid" id="expGrid"></div>
+  </div>
+
+  <!-- ADS -->
+  <div class="page" id="adsPage">
+    <div class="ads-wrap">
+      <div class="ads-h">📢 Reklama joylash</div>
+      <div class="ads-s">Millionlab foydalanuvchiga yeting</div>
+      <div class="plan" onclick="openMo('contactMo')">
+        <div class="plan-top">
+          <div><div class="plan-name">Oddiy paket</div><div style="font-size:12px;color:var(--text2);margin-top:2px">Asosiy reklama</div></div>
+          <div style="text-align:right"><div class="plan-price">$1000</div><div class="plan-per">bir martalik</div></div>
+        </div>
+        <div class="plan-f"><span>👁</span>10,000+ ko'rish</div>
+        <div class="plan-f"><span>📅</span>7 kun</div>
+        <button class="plan-btn p">Murojat →</button>
+      </div>
+      <div class="plan feat" onclick="openMo('contactMo')">
+        <div class="plan-top">
+          <div><div class="plan-name">Premium + Obuna</div><div style="font-size:12px;color:var(--gold);margin-top:2px">Obuna tugmasi bilan</div></div>
+          <div style="text-align:right"><div class="plan-price">$5,000</div><div class="plan-per">bir martalik</div><div class="hot" style="margin-top:5px">🔥 TOP</div></div>
+        </div>
+        <div class="plan-f"><span>👁</span>100,000+ ko'rish</div>
+        <div class="plan-f"><span>🔔</span>Obuna $0.1/ta</div>
+        <div class="plan-f"><span>📈</span>To'liq statistika</div>
+        <button class="plan-btn g">Murojat →</button>
+      </div>
+      <div class="plan" onclick="openMo('contactMo')">
+        <div class="plan-top">
+          <div><div class="plan-name">VIP paket</div></div>
+          <div style="text-align:right"><div class="plan-price">$10,000</div><div class="plan-per">bir martalik</div></div>
+        </div>
+        <div class="plan-f"><span>🌟</span>500,000+ ko'rish</div>
+        <div class="plan-f"><span>🔔</span>Obuna $0.2/ta</div>
+        <div class="plan-f"><span>✅</span>Verified badge</div>
+        <button class="plan-btn p">Murojat →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROFILE -->
+  <div class="page" id="profilePage">
+    <div class="profile-hero">
+      <div class="profile-cover"></div>
+      <div class="profile-ava-wrap">
+        <div class="profile-ava" id="profAvaEl" onclick="changeAva()">
+          <span id="profAvaEmoji">👤</span>
+          <img id="profAvaImg" src="" style="display:none">
+        </div>
+        <div class="ava-edit" onclick="changeAva()">✏️</div>
+      </div>
+    </div>
+    <div class="profile-info">
+      <div class="profile-name" id="profName">Foydalanuvchi <span>✨</span></div>
+      <div class="profile-bio" id="profBio">📺 Rakalma orqali pul ishlayman</div>
+      <div class="profile-stats">
+        <div class="pstat"><div class="pstat-n" id="pStories">0</div><div class="pstat-l">Storiya</div></div>
+        <div class="pstat"><div class="pstat-n" id="pFollow">0</div><div class="pstat-l">Obunachi</div></div>
+        <div class="pstat"><div class="pstat-n">14</div><div class="pstat-l">Obuna</div></div>
+        </div>
+      <div class="pbtns">
+        <button class="pbtn primary" onclick="openMo('editMo')">✏️ Tahrirlash</button>
+        <button class="pbtn" onclick="openMo('shareMo')">🔗 Ulashish</button>
+        <button class="pbtn" onclick="doLogout()">🚪</button>
+      </div>
+    </div>
+
+    <div class="balcard">
+      <div class="bc-lbl">Umumiy balans</div>
+      <div class="bc-amt" id="profBal">$0.00</div>
+      <div class="bc-sub">Minimal yechib olish: $50.00</div>
+      <div class="bc-btns">
+        <button class="bc-btn w" onclick="openMo('wdMo')">💸 Yechib olish</button>
+        <button class="bc-btn h" onclick="openMo('histMo')">📋 Tarix</button>
+      </div>
+    </div>
+
+    <div class="earn-card">
+     <div class="earn-title">📊 Daromad hisobi</div>
+      <div class="earn-row"><div class="earn-left"><span>👁</span>Reklamalar</div><div class="earn-val" id="ecAds">$0.00</div></div>
+      <div class="earn-row"><div class="earn-left"><span>❤️</span>Layklar</div><div class="earn-val" id="ecLikes">$0.00</div></div>
+      <div class="earn-row"><div class="earn-left"><span>🔔</span>Obunachilar</div><div class="earn-val" id="ecSubs">$0.00</div></div>
+      <div class="earn-row"><div class="earn-left"><span>🎁</span>Bonus / Vazifalar</div><div class="earn-val" id="ecBonus">$0.00</div></div>
+    </div>
+
+    <!-- STORIYA JOYLASH -->
+    <div class="story-place-card">
+      <div class="spc-title">📖 Storiya joylash</div>
+      <div class="spc-sub">Storiya joylaganingizda layk uchun $0.01 ishlaysiz</div>
+      <div class="spc-prices">
+        <div class="spc-p sel" id="sp1" onclick="selSt(1)">
+          <div class="spc-p-ic">📸</div>
+          <div class="spc-p-name">Oddiy</div>
+          <div class="spc-p-price">$1</div>
+          <div class="spc-p-earn">+$0.01/layk</div>
+        </div>
+        <div class="spc-p" id="sp2" onclick="selSt(2)">
+          <div class="spc-p-ic">⭐</div>
+          <div class="spc-p-name">Premium</div>
+          <div class="spc-p-price">$3</div>
+          <div class="spc-p-earn">+$0.01/layk</div>
+        </div>
+        <div class="spc-p" id="sp3" onclick="selSt(3)">
+          <div class="spc-p-ic">🔥</div>
+          <div class="spc-p-name">Viral</div>
+          <div class="spc-p-price">$5</div>
+          <div class="spc-p-earn">+$0.01/layk</div>
+        </div>
+      </div>
+      <div class="ig"><label class="il">Storiya matni</label>
+        <input class="inp" id="storyText" placeholder="Nima haqida storiya?"></div>
+      <div class="ig" style="margin-bottom:8px"><label class="il">Rasm tanlash (ixtiyoriy)</label>
+        <input type="file" accept="image/*" id="storyImgInput" style="display:none" onchange="onStoryImg(event)">
+        <div style="display:flex;gap:8px">
+          <button class="btn" style="flex:1;padding:11px;font-size:13px;background:var(--bg3);color:var(--text);box-shadow:none;border:1.5px solid var(--border)" onclick="document.getElementById('storyImgInput').click()">🖼 Rasm tanlash</button>
+          <button class="btn" style="flex:1;padding:11px;font-size:13px" onclick="placeStory()">📖 Joylash</button>
+        </div>
+      </div>
+      <div id="storyPreview" style="display:none;margin-top:8px">
+        <img id="storyPreviewImg" style="width:100%;border-radius:12px;max-height:200px;object-fit:cover">
+      </div>
+    </div>
+
+    <!-- RASM O'ZGARTIRISH -->
+    <input type="file" accept="image/*" id="avaInput" style="display:none" onchange="onAvaChange(event)">
+
+    <!-- STORIYA GRID -->
+    <div class="story-grid-section">
+      <div class="sg-title">Mening storiyalarim</div>
+      <div class="story-grid" id="storyGrid"></div>
+    </div>
+  </div>
+
+  </div><!-- /pages-container -->
+
+  <div class="bnav">
+    <div class="bi active" id="bn-home" onclick="showPage('home')"><div class="biic">🏠</div><div class="bilb">Bosh</div></div>
+    <div class="bi" id="bn-explore" onclick="showPage('explore')"><div class="biic">🔍</div><div class="bilb">Izla</div></div>
+    <div class="bi" id="bn-ads" onclick="showPage('ads')"><div class="biic">📢</div><div class="bilb">Reklama</div></div>
+    <div class="bi" id="bn-profile" onclick="showPage('profile')"><div class="biic">👤</div><div class="bilb">Profil</div></div>
+  </div>
+</div>
+
+<!-- MODALS -->
+<div class="mo" id="adMo">
+  <div class="mb">
+    <div class="mh"></div>
+    <div class="mt">📺 Reklama ko'rish</div>
+    <div class="aw-vid"><div id="adEm" style="font-size:65px">🎬</div>
+      <div class="aw-ov">
+        <div class="aw-t" id="adTim">60</div>
+        <div class="aw-l">SONIYA QOLDI</div>
+        <div class="aw-earn">+$0.01 ishlayapsiz 💰</div>
+      </div>
+    </div>
+    <div class="aw-bar"><div class="aw-fill" id="adFill" style="width:0%"></div></div>
+    <div class="aw-info" id="adInfo">70% ko'rsangiz (42 soniya) pul to'lanadi</div>
+    <button class="btn" id="adDoneBtn" style="display:none" onclick="closeAd()">✅ Olindi! +$0.01</button>
+    <button class="btn" id="adSkipBtn" style="background:var(--bg3);color:var(--text2);margin-top:8px;box-shadow:none;border:1px solid var(--border)" onclick="skipAd()">Keyinroq</button>
+  </div>
+</div>
+
+<div class="mo" id="wdMo">
+  <div class="mb">
+    <div class="mh"></div>
+    <div class="mt">💸 Pul yechib olish</div>
+    <div class="wd-bal"><div class="wd-amt" id="wdAmt">$0.00</div><div style="font-size:12px;color:var(--text2);margin-top:4px">Mavjud balans</div></div>
+    <div class="wd-min">⚠️ Minimal yechib olish: <strong>$50.00</strong></div>
+    <div class="ig"><label class="il">To'lov usuli</label>
+      <select class="inp"><option>Click</option><option>Payme</option><option>UZCARD</option><option>PayPal</option></select></div>
+    <div class="ig"><label class="il">Karta raqami</label>
+      <input class="inp" placeholder="8600 xxxx xxxx xxxx"></div>
+    <button class="btn" onclick="doWithdraw()">💸 So'rov yuborish</button>
+  </div>
+</div>
+
+<div class="mo" id="contactMo">
+  <div class="mb">
+    <div class="mh"></div>
+    <div class="mt">📩 Reklama joylash</div>
+    <div style="background:var(--bg3);border-radius:14px;padding:14px;margin-bottom:14px;display:flex;flex-direction:column;gap:10px">
+      <div style="display:flex;align-items:center;gap:10px;font-size:14px"><span style="font-size:22px">✉️</span>Telegram: <strong style="color:var(--p2)">@rakalma_admin</strong></div>
+      <div style="display:flex;align-items:center;gap:10px;font-size:14px"><span style="font-size:22px">⏰</span>Ish vaqti: 9:00 — 22:00</div>
+    </div>
+    <button class="btn" onclick="toast('📲 Telegram ochilmoqda...','g');closeMo('contactMo')">💬 Telegram orqali bog'lanish</button>
+    <button style="width:100%;padding:13px;border-radius:12px;border:1.5px solid var(--border);background:transparent;color:var(--text);font-size:14px;font-weight:600;cursor:pointer;margin-top:8px;font-family:'DM Sans',sans-serif" onclick="closeMo('contactMo')">Yopish</button>
+  </div>
+</div>
+
+<div class="mo" id="editMo">
+  <div class="mb">
+    <div class="mh"></div>
+    <div class="mt">✏️ Profilni tahrirlash</div>
+    <div class="ig"><label class="il">To'liq ism</label><input class="inp" id="editName" placeholder="Ism Familiya"></div>
+    <div class="ig"><label class="il">Bio</label><input class="inp" id="editBio" placeholder="O'zingiz haqingizda..."></div>
+    <button class="btn" onclick="saveProfile()">Saqlash</button>
+  </div>
+</div>
+
+<div class="mo" id="histMo">
+  <div class="mb">
+    <div class="mh"></div>
+    <div class="mt">📋 To'lov tarixi</div>
+    <div id="histList"></div>
+    <button class="btn" style="margin-top:16px" onclick="closeMo('histMo')">Yopish</button>
+  </div>
+</div>
+
+<div class="mo" id="shareMo">
+  <div class="mb">
+    <div class="mh"></div>
+    <div class="mt">🔗 Profil ulashish</div>
+    <div style="background:var(--bg3);border-radius:14px;padding:14px;font-size:14px;color:var(--text2);margin-bottom:14px">
+      Profil havolasi:<br><strong style="color:var(--p2)" id="shareLink">rakalma.app/@user</strong>
+    </div>
+    <button class="btn" onclick="toast('📋 Nusxalandi!','s');closeMo('shareMo')">📋 Nusxa olish</button>
+  </div>
+</div>
+
+<div class="mo" id="notiMo">
+  <div class="mb">
+    <div class="mh"></div>
+    <div class="mt">🔔 Bildirishnomalar</div>
+    <div id="notiList"></div>
+    <button class="btn" style="margin-top:16px" onclick="closeMo('notiMo');clearNotis()">Yopish</button>
+  </div>
+</div>
+
+<div class="mo" id="msgMo">
+  <div class="mb">
+    <div class="mh"></div>
+    <div class="mt">💬 Xabarlar</div>
+    <div style="background:var(--bg3);border-radius:14px;padding:14px;display:flex;gap:12px;align-items:center;margin-bottom:8px">
+      <div style="font-size:30px">📢</div>
+      <div><div style="font-size:14px;font-weight:700">Rakalma Admin</div>
+      <div style="font-size:12px;color:var(--text2)">Xush kelibsiz! Savollar uchun yozing.</div></div>
+    </div>
+    <button class="btn" onclick="closeMo('msgMo')">Yopish</button>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script>
+// ── LocalStorage ──
+function ls(k){try{return JSON.parse(localStorage.getItem('rklm_'+k));}catch(e){return null;}}
+function lss(k,v){try{localStorage.setItem('rklm_'+k,JSON.stringify(v));}catch(e){}}
+
+// ── STATE ──
+let user=null,bal=0,adsW=0,subsE=0,likesE=0,bonusE=0;
+let adIv=null,adSecs=0;
+let liked={},subbed={};
+let selStType=1;
+let notis=[],histList=[],myStories=[],storyImgData=null;
+let avaImgData=null;
+let taskAdsToday=0,taskSubToday=0,taskAdsDone=false,taskSubDone=false,taskAdsDate='',taskSubDate='';
+
+const BASE_POSTS=[
+  {id:1,u:'SuperMarket',av:'🛒',v:true,ad:true,em:'🛍️',cap:'Yangi kolleksiya 50% chegirma!',lk:1240,cm:89,t:'2 soat',comments:[]},
+  {id:2,u:'Ali_uz',av:'😎',v:false,ad:false,em:'🌄',cap:'Bugungi manzara ajoyib edi!',lk:342,cm:23,t:'3 soat',comments:["Zo'r rasm!","Qayerda bu?"]},
+  {id:3,u:'TechStore',av:'📱',v:true,ad:true,em:'📱',cap:'iPhone 15 Pro eng yaxshi narxda!',lk:2103,cm:156,t:'5 soat',comments:[]},
+  {id:4,u:'Malika99',av:'🌸',v:false,ad:false,em:'☕',cap:'Ertalabki qahva bilan yangi kun 🌅',lk:891,cm:44,t:'6 soat',comments:['❤️','Ajoyib!']},
+  {id:5,u:'FoodDelivery',av:'🍕',v:true,ad:true,em:'🍔',cap:"30 daqiqada yetkazib beramiz!",lk:567,cm:31,t:'8 soat',comments:[]},
+];
+
+const SAMPLE_USERS=[
+  {name:'Ali Karimov',em:'😎',posts:12,followers:340},
+  {name:'Malika Rahimova',em:'🌸',posts:8,followers:890},
+  {name:'Sardor Toshev',em:'🎮',posts:5,followers:120},
+  {name:'Nilufar Hasanova',em:'💃',posts:22,followers:1200},
+  {name:'Bobur Yusupov',em:'🏋️',posts:3,followers:67},
+];
+
+// ── SPLASH ──
+setTimeout(()=>{
+  const s=document.getElementById('splash');
+  s.style.transition='opacity .6s';s.style.opacity='0';
+  setTimeout(()=>{
+  s.style.display='none';
+    const saved=ls('user');
+    if(saved){user=saved;enterApp();}
+    else document.getElementById('authPage').style.display='block';
+  },600);
+},2600);
+
+// ── AUTH ──
+function doRegister(){
+  const name=document.getElementById('rName').value.trim();
+  const email=document.getElementById('rEmail').value.trim();
+  const pass=document.getElementById('rPass').value.trim();
+  if(!name!email!pass){showErr("Barcha maydonlarni to'ldiring");return;}
+  if(pass.length<6){showErr("Parol kamida 6 ta belgi");return;}
+  if(!email.includes('@')){showErr("Email noto'g'ri");return;}
+  const users=ls('users')||{};
+  if(users[email]){showErr("Bu email band");return;}
+  const u={name,email,pass,balance:0.05,adsWatched:0,subsEarned:0,likesEarned:0,bonusEarned:0.05,
+    lastBonus:'',stories:[],histList:[],notis:[],avaImg:'',
+    taskAdsDate:'',taskSubDate:'',taskAdsDone:false,taskSubDone:false,taskAdsToday:0,taskSubToday:0,
+    createdAt:Date.now()};
+  users[email]=u;lss('users',users);
+  user=u;lss('user',u);
+  toast("✅ Ro'yxatdan o'tdingiz!",'s');
+  enterApp();
+}
+
+function doLogin(){
+  const email=document.getElementById('lEmail').value.trim();
+  const pass=document.getElementById('lPass').value.trim();
+  if(!email||!pass){showErr("Email va parolni kiriting");return;}
+  const users=ls('users')||{};
+  const u=users[email];
+  if(!u){showErr("Foydalanuvchi topilmadi");return;}
+  if(u.pass!==pass){showErr("Parol noto'g'ri");return;}
+  user=u;lss('user',u);
+  toast('👋 Xush kelibsiz!','s');
+  enterApp();
+}
+
+function doLogout(){
+  saveUser();lss('user',null);
+  user=null;bal=0;adsW=0;subsE=0;likesE=0;bonusE=0;
+  liked={};subbed={};myStories=[];notis=[];histList=[];avaImgData=null;storyImgData=null;
+  document.getElementById('app').style.display='none';
+  document.getElementById('authPage').style.display='block';
+  toast('✅ Chiqdingiz');
+}
+
+function saveUser(){
+  if(!user)return;
+  user.balance=bal;user.adsWatched=adsW;user.subsEarned=subsE;
+  user.likesEarned=likesE;user.bonusEarned=bonusE;
+  user.stories=myStories;user.histList=histList;user.notis=notis;
+  user.avaImg=avaImgData||'';
+  user.taskAdsDate=taskAdsDate;user.taskSubDate=taskSubDate;
+  user.taskAdsDone=taskAdsDone;user.taskSubDone=taskSubDone;
+  user.taskAdsToday=taskAdsToday;user.taskSubToday=taskSubToday;
+  lss('user',user);
+  const users=ls('users')||{};
+  if(users[user.email])users[user.email]=user;
+  lss('users',users);
+}
+
+function enterApp(){
+  bal=user.balance||0.05;
+  adsW=user.adsWatched||0;
+  subsE=user.subsEarned||0;
+  likesE=user.likesEarned||0;
+  bonusE=user.bonusEarned||0;
+  myStories=user.stories||[];
+  histList=user.histList||[];
+  notis=user.notis||[];
+  avaImgData=user.avaImg||'';
+  taskAdsDate=user.taskAdsDate||'';
+  taskSubDate=user.taskSubDate||'';
+  const today=new Date().toDateString();
+  if(taskAdsDate!==today){taskAdsToday=0;taskAdsDone=false;}
+  else{taskAdsToday=user.taskAdsToday0;taskAdsDone=user.taskAdsDonefalse;}
+  if(taskSubDate!==today){taskSubToday=0;taskSubDone=false;}
+  else{taskSubToday=user.taskSubToday0;taskSubDone=user.taskSubDonefalse;}
+  taskAdsDate=today;taskSubDate=today;
+
+  document.getElementById('authPage').style.display='none';
+  document.getElementById('app').style.display='block';
+  document.getElementById('profName').innerHTML=user.name+' <span>✨</span>';
+  document.getElementById('shareLink').textContent='rakalma.app/@'+user.name.toLowerCase().replace(/\s/g,'');
+
+  if(avaImgData){
+    document.getElementById('profAvaEmoji').style.display='none';
+    const img=document.getElementById('profAvaImg');
+    img.src=avaImgData;img.style.display='block';
+  }
+
+  checkDailyBonus();
+  buildStories();buildFeed();buildExplore();buildStoryGrid();
+  updateBal();updateTasks();updateNotiBadge();
+  toast('👋 Salom, '+user.name+'!','s');
+  }
+  // ── DAILY BONUS ──
+function checkDailyBonus(){
+  const today=new Date().toDateString();
+  if(user.lastBonus===today){
+    document.getElementById('bonusTxt').textContent='✅ Bugungi bonus olindi';
+    document.getElementById('bonusBtn').disabled=true;
+  } else {
+    document.getElementById('bonusTxt').textContent='🎁 Kunlik bonus: $0.02 tayyor!';
+    document.getElementById('bonusBtn').disabled=false;
+  }
+}
+
+function claimBonus(){
+  const today=new Date().toDateString();
+  if(user.lastBonus===today){toast('Bugungi bonus allaqachon olindi','e');return;}
+  user.lastBonus=today;bal+=0.02;bonusE+=0.02;
+  document.getElementById('bonusTxt').textContent='✅ Bugungi bonus olindi';
+  document.getElementById('bonusBtn').disabled=true;
+  addHist('🎁 Kunlik bonus','+$0.02');
+  addNoti('🎁 Kunlik bonus olindi! +$0.02');
+  updateBal();saveUser();
+  toast('🎁 Kunlik bonus +$0.02!','g');
+}
+
+// ── TASKS ──
+function updateTasks(){
+  const a=Math.min(taskAdsToday,10);
+  document.getElementById('tAdsProg').textContent=a+'/10';
+  document.getElementById('tAdsBar').style.width=(a*10)+'%';
+  const ab=document.getElementById('tAdsBtn');
+  if(taskAdsDone){ab.textContent='✅';ab.disabled=true;ab.className='t-btn done';}
+  else if(a>=10){ab.disabled=false;}
+  else ab.disabled=true;
+
+  const s=Math.min(taskSubToday,3);
+  document.getElementById('tSubProg').textContent=s+'/3';
+  document.getElementById('tSubBar').style.width=(s/3*100)+'%';
+  const sb=document.getElementById('tSubBtn');
+  if(taskSubDone){sb.textContent='✅';sb.disabled=true;sb.className='t-btn done';}
+  else if(s>=3){sb.disabled=false;}
+  else sb.disabled=true;
+}
+
+function claimAdsTask(){
+  if(taskAdsDone||taskAdsToday<10)return;
+  taskAdsDone=true;bal+=0.10;bonusE+=0.10;
+  addHist('🎯 Vazifa: 10 reklama','+$0.10');
+  addNoti('🎯 Vazifa bajarildi! +$0.10');
+  updateBal();updateTasks();saveUser();
+  toast('🎯 Vazifa bonusi +$0.10!','g');
+}
+
+function claimSubTask(){
+  if(taskSubDone||taskSubToday<3)return;
+  taskSubDone=true;bal+=0.05;bonusE+=0.05;
+  addHist('🎯 Vazifa: 3 obuna','+$0.05');
+  addNoti('🎯 Obuna vazifasi +$0.05!');
+  updateBal();updateTasks();saveUser();
+  toast('🎯 Obuna vazifasi +$0.05!','g');
+}
+
+// ── BUILD STORIES ROW ──
+function buildStories(){
+  const wrap=document.getElementById('storiesRow');
+  const items=[
+    {n:'+ Qo\'sh',a:'➕',ad:false,isAdd:true},
+    {n:'TechAds',a:'📱',ad:true},
+    {n:'Ali_uz',a:'😎',ad:false},
+    {n:'FoodAd',a:'🍕',ad:true},
+    {n:'Malika',a:'🌸',ad:false,seen:true},
+    {n:'ShopAd',a:'🛒',ad:true},
+  ];
+  // Add user stories first
+  const userStoryItems=myStories.slice(-3).reverse().map((s,i)=>({n:user.name,a:s.img?null:s.em||'📖',img:s.img,ad:false,mine:true,idx:i}));
+  const allItems=[...userStoryItems,...items];
+  wrap.innerHTML=allItems.map((s,i)=>
+    <div class="sitem" onclick="${s.isAdd?showPage('profile'):s.ad?openAd(${i}):''}">
+      <div class="sring ${s.ad?'ad-ring':s.seen?'seen-ring':''}">
+        <div class="sav" style="${s.mine?'border-color:var(--gold)':''}">
+          ${s.img?<img src="${s.img}" onerror="this.style.display='none';this.nextSibling.style.display='flex'">:''}
+          <span style="${s.img?'display:none':''}">${s.isAdd?'➕':s.a||'📖'}</span>
+        </div>
+      </div>
+      <div class="sname">${s.n}</div>
+      ${s.ad?'<div class="sad">AD</div>':''}
+      ${s.mine?'<div class="sad" style="color:var(--green)">MENING</div>':''}
+    </div>).join('');
+}
+
+// ── BUILD FEED ──
+function buildFeed(){
+  const storyPosts=myStories.slice().reverse().map(s=>({...s,isStory:true,mine:true}));
+  const allPosts=[...storyPosts,...BASE_POSTS];
+  document.getElementById('feedWrap').innerHTML=allPosts.map(p=>renderPost(p)).join('');
+}
+
+function renderPost(p){
+  const isLiked=liked[p.id]||false;
+  const cmts=(p.comments||[]).slice(-2);
+  if(p.isStory){
+  return <div class="post-card story-post" id="post${p.id}">
+      <div class="ph">
+        <div class="pav gold-ring">${avaImgData?<img src="${avaImgData}">:<span>${p.av||'😊'}</span>}</div>
+        <div class="pinfo">
+          <div class="puser">${user.name} <span class="chip chip-story">STORIYA</span> <span class="chip chip-mine">MENING</span></div>
+          <div class="ptime">${p.t||'Hozir'} oldin</div>
+        </div>
+      </div>
+      <div class="pmedia">
+        <div class="story-media">
+          ${p.img?<img src="${p.img}" onerror="this.style.display='none'">:<span class="story-media-emoji">${p.em||'📖'}</span>}
+          <div class="story-earn-badge">❤️ Har layk = +$0.01</div>
+        </div>
+      </div>
+      <div class="pacts">
+        <div class="act ${isLiked?'liked':''}" onclick="toggleLike(${p.id},true,this)">
+          <span class="aic">${isLiked?'❤️':'🤍'}</span>
+          <span id="lk${p.id}">${(p.lk||0)+(isLiked?1:0)}</span>
+        </div>
+        <div class="act"><span class="aic">💬</span>${p.cm||0}</div>
+        <div class="act actr"><span class="aic">🔖</span></div>
+      </div>
+      <div class="pcap"><strong>${user.name}</strong> <span>${p.cap||''}</span></div>
+      <div class="comments-section">
+        <div class="clist">${cmts.map(c=>
+          <div class="citem">
+            <div class="cav-s">${avaImgData?<img src="${avaImgData}">:'😊'}</div>
+            <div class="cbody"><div class="cname">${user.name}</div><div class="ctext">${c}</div></div>
+          </div>).join('')}</div>
+        <div class="comment-inp-row" style="margin-top:8px">
+          <input class="comment-inp" placeholder="Izoh..." id="ci${p.id}">
+          <button class="csend" onclick="sendComment(${p.id})">➤</button>
+        </div>
+      </div>
+    </div>;
+  }
+  return <div class="post-card" id="post${p.id}">
+    <div class="ph">
+      <div class="pav ${p.v?'v':''}">${p.av||'😊'}</div>
+      <div class="pinfo">
+        <div class="puser">${p.u}${p.v?' ✅':''}${p.ad? <span class="chip chip-ad">AD</span>:''}</div>
+        <div class="ptime">${p.t||'Hozir'} oldin</div>
+      </div>
+      <div style="font-size:20px;color:var(--text2);padding:4px;cursor:pointer">···</div>
+    </div>
+    <div class="pmedia"><div class="pinner">
+      <span class="pinner-emoji">${p.em||'📷'}</span>
+      ${p.ad?<div class="ad-over">
+        <div class="ad-play" onclick="openAd(${p.id})">▶</div>
+        <div class="ad-earn-tag">👁 Ko'r = +$0.01</div>
+      </div>:''}</div>
+    </div>
+    <div class="pacts">
+      <div class="act ${isLiked?'liked':''}" onclick="toggleLike(${p.id},false,this)">
+        <span class="aic">${isLiked?'❤️':'🤍'}</span>
+        <span id="lk${p.id}">${(p.lk||0)+(isLiked?1:0)}</span>
+      </div>
+      <div class="act"><span class="aic">💬</span>${p.cm||0}</div>
+      <div class="act actr"><span class="aic">🔖</span></div>
+    </div>
+    <div class="pcap"><strong>${p.u}</strong> <span>${p.cap||''}</span></div>
+    ${p.v?<div class="subbar">
+      <button class="subbtn ${subbed[p.u]?'on':''}" onclick="toggleSub('${p.u}',this)">
+        ${subbed[p.u]?"✅ Obuna bo'ldingiz":"🔔 Obuna bo'lish"}
+        <span class="etag">+$0.10</span>
+      </button>
+    </div>:''}
+    <div class="comments-section">
+      <div class="clist">${cmts.map(c=>
+        <div class="citem">
+          <div class="cav-s">😊</div>
+          <div class="cbody"><div class="cname">Foydalanuvchi</div><div class="ctext">${c}</div></div>
+        </div>).join('')}</div>
+      <div class="comment-inp-row" style="margin-top:8px">
+        <input class="comment-inp" placeholder="Izoh..." id="ci${p.id}">
+        <button class="csend" onclick="sendComment(${p.id})">➤</button>
+      </div>
+    </div>
+  </div>;
+}
+
+function sendComment(id){
+  const inp=document.getElementById('ci'+id);
+  const t=inp.value.trim();if(!t)return;inp.value='';
+  const bp=BASE_POSTS.find(p=>p.id===id);
+  if(bp){if(!bp.comments)bp.comments=[];bp.comments.push(t);bp.cm++;}
+  const ms=myStories.find(p=>p.id===id);
+  if(ms){if(!ms.comments)ms.comments=[];ms.comments.push(t);}
+  buildFeed();saveUser();toast('💬 Izoh qo\'shildi','i');
+}
+
+// ── LIKE ──
+function toggleLike(id,isMine,el){
+  if(liked[id]){toast('Allaqachon layk bosgansiz');return;}
+  liked[id]=true;
+  el.className='act liked';
+  el.querySelector('.aic').textContent='❤️';
+  const lkEl=document.getElementById('lk'+id);
+  if(lkEl)lkEl.textContent=parseInt(lkEl.textContent)+1;
+  if(isMine){likesE+=0.01;bal+=0.01;updateBal();saveUser();addNoti('❤️ Storiyangizga layk! +$0.01');toast('❤️ +$0.01 ishlandi!','g');}
+  else toast('❤️ Layk bosildi');
+}
+
+// ── SUBSCRIBE ──
+function toggleSub(u,btn){
+  if(subbed[u]){toast("Allaqachon obuna bo'lgansiz");return;}
+  subbed[u]=true;btn.className='subbtn on';
+  btn.innerHTML="✅ Obuna bo'ldingiz <span class='etag'>+$0.10</span>";
+  subsE+=0.1;bal+=0.1;taskSubToday++;
+  addHist('🔔 Obuna: '+u,'+$0.10');addNoti('🔔 Obunaga qo\'shildi: '+u);
+  updateBal();updateTasks();saveUser();
+  toast("🔔 Obuna bo'ldingiz +$0.10",'g');
+}
+
+// ── AD WATCH ──
+const adEms=['📺','🛍️','📱','🚗','🍕','🎬','👟','💄'];
+function openAd(id){
+  document.getElementById('adEm').textContent=adEms[id%adEms.length];
+  document.getElementById('adTim').textContent='60';
+  document.getElementById('adFill').style.width='0%';
+  document.getElementById('adFill').style.background='linear-gradient(90deg,var(--p),var(--pk))';
+  document.getElementById('adInfo').textContent="70% ko'rsangiz (42 soniya) pul to'lanadi";
+  document.getElementById('adDoneBtn').style.display='none';
+  document.getElementById('adSkipBtn').style.display='block';
+  adSecs=60;openMo('adMo');
+  if(adIv)clearInterval(adIv);
+  adIv=setInterval(()=>{
+    adSecs--;
+    const pct=Math.round(((60-adSecs)/60)*100);
+    document.getElementById('adTim').textContent=adSecs;
+    document.getElementById('adFill').style.width=pct+'%';
+    if(adSecs===42){
+      document.getElementById('adInfo').textContent="✅ 70% ko'rdingiz! Pul hisoblanyapti...";
+      document.getElementById('adFill').style.background='linear-gradient(90deg,var(--green),#059669)';
+    }
+    if(adSecs<=0){
+      clearInterval(adIv);adsW++;bal+=0.01;taskAdsToday++;
+      addHist("👁 Reklama ko'rildi",'+$0.01');addNoti("💰 Reklama ko'rildi +$0.01");
+      updateBal();updateTasks();saveUser();
+      document.getElementById('adDoneBtn').style.display='block';
+      document.getElementById('adSkipBtn').style.display='none';
+      document.getElementById('adTim').textContent='✅';
+    }
+  },1000);
+}
+function closeAd(){if(adIv)clearInterval(adIv);closeMo('adMo');toast("💰 +$0.01 qo'shildi!",'g');}
+function skipAd(){if(adIv)clearInterval(adIv);closeMo('adMo');}
+
+// ── AVATAR ──
+function changeAva(){document.getElementById('avaInput').click();}
+function onAvaChange(e){
+  const file=e.target.files[0];if(!file)return;
+  const reader=new FileReader();
+  reader.onload=function(ev){
+    avaImgData=ev.target.result;
+    document.getElementById('profAvaEmoji').style.display='none';
+    const img=document.getElementById('profAvaImg');
+    img.src=avaImgData;img.style.display='block';
+    saveUser();buildFeed();
+    toast('📸 Profil rasmi yangilandi!','s');
+  };
+  reader.readAsDataURL(file);
+}
+
+// ── STORY PLACE ──
+function selSt(n){
+  selStType=n;
+  [1,2,3].forEach(i=>document.getElementById('sp'+i).className='spc-p'+(i===n?' sel':''));
+}
+
+function onStoryImg(e){
+  const file=e.target.files[0];if(!file)return;
+  const reader=new FileReader();
+  reader.onload=function(ev){
+    storyImgData=ev.target.result;
+    const prev=document.getElementById('storyPreview');
+    const prevImg=document.getElementById('storyPreviewImg');
+    prevImg.src=storyImgData;prev.style.display='block';
+    toast('🖼 Rasm tanlandi','i');
+  };
+  reader.readAsDataURL(file);
+}
+
+const stPrices={1:1,2:3,3:5};
+const stEmojis=['🌄','🎮','🍕','🎵','🌸','🚗','🏠','🎬','👟','🌍','💫','🎨'];
+function placeStory(){
+  const price=stPrices[selStType];
+  const text=document.getElementById('storyText').value.trim();
+  if(!text){toast('Storiya matni kiriting','e');return;}
+  if(bal<price){toast(Balans yetarli emas! Kerak: $${price},'e');return;}
+  bal-=price;
+  const s={
+    id:Date.now(),em:stEmojis[Math.floor(Math.random()*stEmojis.length)],
+    img:storyImgData||'',cap:text,lk:0,cm:0,t:'Hozir',comments:[],
+    type:selStType,av:'😊'
+  };
+  myStories.push(s);
+  document.getElementById('storyText').value='';
+  document.getElementById('storyPreview').style.display='none';
+  storyImgData=null;
+  document.getElementById('storyImgInput').value='';
+  addHist(📖 Storiya (${selStType===1?'Oddiy':selStType===2?'Premium':'Viral'}),'−$'+price);
+  addNoti('📖 Storiyangiz joylashtirildi! Layk yig\'ing!');
+  updateBal();buildStories();buildFeed();buildStoryGrid();
+  document.getElementById('pStories').textContent=myStories.length;
+  saveUser();
+  toast(📖 Storiya joylashtirildi! -$${price},'s');
+  showPage('home');
+}
+
+function buildStoryGrid(){
+  const grid=document.getElementById('storyGrid');
+  grid.innerHTML='';
+  const defaultItems=['🌄','🎮','🍕','📱','🌸','🎬'];
+  const allItems=[...myStories.slice().reverse().map(s=>({...s,mine:true})),
+    ...defaultItems.map(e=>({em:e,mine:false,id:Math.random()}))];
+  allItems.slice(0,12).forEach(it=>{
+    const d=document.createElement('div');
+    d.className='sg-item';
+    if(it.img){const img=document.createElement('img');img.src=it.img;d.appendChild(img);}
+    else{d.textContent=it.em||'📖';}
+    if(it.mine){const b=document.createElement('div');b.className='sg-badge';b.textContent='💰';d.appendChild(b);}
+    grid.appendChild(d);
+  });
+  document.getElementById('pStories').textContent=myStories.length;
+}
+
+// ── EXPLORE ──
+function buildExplore(){
+  const items=['🌄','🎮','🍕','📱','🛍️','🎵','🚗','🌸','🏠','🎬','👟','🌍','💄','🏋️','📚'];
+  document.getElementById('expGrid').innerHTML=items.map(e=><div class="eg">${e}</div>).join('');
+}
+
+function doSearch(q){
+  const res=document.getElementById('userResults');
+  const grid=document.getElementById('expGrid');
+  if(!q.trim()){res.innerHTML='';grid.style.display='grid';return;}
+  grid.style.display='none';
+  const found=SAMPLE_USERS.filter(u=>u.name.toLowerCase().includes(q.toLowerCase()));
+  if(!found.length){res.innerHTML='<div style="padding:24px;text-align:center;color:var(--text2)">😕 Topilmadi</div>';return;}
+  res.innerHTML=found.map(u=>
+    <div class="uc">
+      <div class="uc-av">${u.em}</div>
+      <div><div class="uc-name">${u.name}</div><div class="uc-info">${u.posts} storiya · ${u.followers} obunachi</div></div>
+      <button class="uc-btn" onclick="toast('👤 ${u.name} profiliga o\\'tildi','i')">Ko'rish</button>
+    </div>).join('');
+}
+
+// ── BALANCE ──
+function updateBal(){
+  const b='$'+bal.toFixed(2);
+  document.getElementById('balTop').textContent=b;
+  document.getElementById('profBal').textContent=b;
+  document.getElementById('wdAmt').textContent=b;
+  document.getElementById('ecAds').textContent='$'+(adsW*0.01).toFixed(2);
+  document.getElementById('ecLikes').textContent='$'+likesE.toFixed(2);
+  document.getElementById('ecSubs').textContent='$'+subsE.toFixed(2);
+  document.getElementById('ecBonus').textContent='$'+bonusE.toFixed(2);
+  document.getElementById('pFollow').textContent=Math.min(9999,Math.floor(bal*80));
+}
+
+function doWithdraw(){
+  if(bal<50){toast('❌ Minimal yechib olish $50!','e');return;}
+  addHist('💸 Yechib olish so\'rovi','−$'+bal.toFixed(2));
+  toast("✅ So'rov yuborildi! 1-3 kun",'s');
+  closeMo('wdMo');
+}
+
+// ── HISTORY ──
+function addHist(t,a){histList.unshift({t,a,time:new Date().toLocaleTimeString()});if(histList.length>60)histList.pop();}
+function showHist(){
+  const el=document.getElementById('histList');
+  if(!histList.length){el.innerHTML='<div style="padding:20px;text-align:center;color:var(--text2)">Hali tarix yo\'q</div>';return;}
+  el.innerHTML=histList.slice(0,20).map(h=>
+    <div style="background:var(--bg3);border-radius:12px;padding:11px 14px;display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+      <div><div style="font-size:14px;font-weight:600">${h.t}</div><div style="font-size:11px;color:var(--text2)">${h.time}</div></div>
+      <div style="font-size:15px;font-weight:700;color:${h.a.startsWith('+')? 'var(--green)':'var(--red)'}">${h.a}</div>
+    </div>).join('');
+  }
+      // ── NOTIFICATIONS ──
+function addNoti(text){notis.unshift({text,time:new Date().toLocaleTimeString()});if(notis.length>30)notis.pop();updateNotiBadge();}
+function updateNotiBadge(){const b=document.getElementById('notiBadge');b.textContent=Math.min(notis.length,9);b.style.display=notis.length?'flex':'none';}
+function clearNotis(){notis=[];updateNotiBadge();saveUser();}
+function showNotis(){
+  const el=document.getElementById('notiList');
+  if(!notis.length){el.innerHTML='<div style="padding:20px;text-align:center;color:var(--text2)">Bildirishnoma yo\'q</div>';return;}
+  el.innerHTML=notis.slice(0,15).map(n=>
+    <div style="background:var(--bg3);border-radius:12px;padding:12px 14px;display:flex;gap:10px;align-items:flex-start;margin-bottom:7px">
+      <span style="font-size:20px">${n.text.split(' ')[0]}</span>
+      <div><div style="font-size:13px">${n.text}</div><div style="font-size:11px;color:var(--text2)">${n.time}</div></div>
+    </div>).join('');
+}
+
+// ── PROFILE ──
+function saveProfile(){
+  const name=document.getElementById('editName').value.trim();
+  const bio=document.getElementById('editBio').value.trim();
+  if(name){user.name=name;document.getElementById('profName').innerHTML=name+' <span>✨</span>';saveUser();}
+  if(bio)document.getElementById('profBio').textContent=bio;
+  closeMo('editMo');toast('✅ Profil saqlandi','s');
+}
+
+// ── HELPERS ──
+function showErr(msg){const el=document.getElementById('errBox');el.textContent='❌ '+msg;el.style.display='block';setTimeout(()=>el.style.display='none',4000);}
+function switchTab(tab){
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',(i===0&&tab==='login')||(i===1&&tab==='register')));
+  document.getElementById('loginForm').style.display=tab==='login'?'block':'none';
+  document.getElementById('regForm').style.display=tab==='register'?'block':'none';
+  document.getElementById('errBox').style.display='none';
+}
+function showPage(name){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.bi').forEach(b=>b.classList.remove('active'));
+  document.getElementById(name+'Page').classList.add('active');
+  document.getElementById('bn-'+name).classList.add('active');
+  if(name==='home')buildFeed();
+}
+function openMo(id){document.getElementById(id).classList.add('open');if(id==='histMo')showHist();if(id==='notiMo')showNotis();}
+function closeMo(id){document.getElementById(id).classList.remove('open');}
+document.addEventListener('click',e=>{document.querySelectorAll('.mo.open').forEach(m=>{if(e.target===m)m.classList.remove('open');});});
+let tT;
+function toast(msg,type=''){const el=document.getElementById('toast');el.textContent=msg;el.className='show '+(type||'');clearTimeout(tT);tT=setTimeout(()=>el.className='',2800);}
+</script>
+</body>
+</html>
